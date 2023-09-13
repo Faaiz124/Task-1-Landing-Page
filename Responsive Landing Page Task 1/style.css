@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.3s ease-in-out;
+}
+
+body {
+    margin-top: 60px !important;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background: #020824;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(60 206 240)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid rgb(60 206 240);
+}
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, #0f0f25, #0f0f25)
+}
+
+.navbar-brand {
+    color: aqua !important;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.nav-link {
+    color: aliceblue !important;
+    height: 2em;
+}
+
+.nav-link:hover {
+    color: #1de7ea !important;
+    text-decoration: underline;
+    lighting-color: #1de7ea;
+    line-height: 1em;
+}
+
+.container {
+    margin-top: -13px;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.mybtn {
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 13px;
+    margin-bottom: -10px;
+}
+
+.mybtn:hover {
+    background-color: #0f0f25 !important;
+    background: none;
+    color: #1de7ea;
+}
+
+.mybtn2 {
+    border: none;
+    color: black;
+    width: 7rem;
+    padding-bottom: 2px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: aqua !important;
+    margin-top: 13px;
+    margin-bottom: -10px;
+}
+
+.mybtn2:hover {
+    background-color: rgba(0, 238, 255, 0.63) !important;
+    background: none;
+    color: black;
+}
+
+.header2 {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    position: relative;
+    max-width: 1400px;
+    height: 100vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+#navbar.bg-gold {
+    background-color: #0d163b !important;
+}
+
+#navbar.bg-blue {
+    background-color: #6610f2 !important;
+}
+
+
